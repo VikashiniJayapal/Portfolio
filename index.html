@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+
+<!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        <div class="header-text">
+            <p>Full-Stack Developer</p>
+            <h1>Hi, I'm <span>Vikashini</span> <br> from India</h1>
+        </div>
+        </div>    
+    </div>
+
+<!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam qui nesciunt ex dolores delectus amet hic harum optio reprehenderit odio! Minus eaque atque dignissimos optio sint iste deserunt assumenda ea! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam qui nesciunt ex dolores delectus amet hic harum optio reprehenderit odio! Minus eaque atque dignissimos optio sint iste deserunt assumenda ea! </p>
+                
+                <div class="tab-titles">
+                    <p class="link active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="link" onclick="opentab('experience')">Experience</p>
+                    <p class="link" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Back-End Development</span><br>Java Development</li>
+                        <li><span>Languages</span><br>HTML, CSS, Javascript, Java</li>
+                        <li><span>Database/Library</span><br>MySQL, ReactJS</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-2024</span><br>Full-Stack Development training at ExcelR.</li>
+                        <li><span>2024</span><br>Web Development Internship at Octanet Services.</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018-2022</span><br>B.E from Avinashilingam University - CGPA 8.1</li>
+                        <li><span>2017-2018</span><br>HSC from AVB Matric Hr Sec School - CGPA 8.1</li>
+                        <li><span>2015-2016</span><br>SSLC from SRMHSS - CGPA 9</li>
+                        
+                    </ul>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Travel Website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia eum magnam molestias architecto</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Dine-In</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia eum magnam molestias architecto</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Bus-Booking Webpage</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia eum magnam molestias architecto</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+    </div>
+
+<!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vikashinij1904@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>7305951904</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/VikashiniJayapal"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vikashini-jayapal-52bb9b205/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://x.com/Vikashini_J"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/Vikashini J Resume.pdf" class="button btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright@vikashini</p>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>
