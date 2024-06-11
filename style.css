@@ -340,6 +340,10 @@ nav .fa-solid{
         background-size: cover;
     }
 
+    .container{
+        padding: 10px 30px;
+    }
+
     .header-text{
         margin-top: 190px;
         font-size: 12px;
