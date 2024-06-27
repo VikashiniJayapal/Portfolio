@@ -5,6 +5,10 @@
     font-family:'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -14,6 +18,7 @@ body{
 
 #header{
     width: 100%;
+    height: 100vh;
     background-image: url(images/BI-1.jpg);
     background-position: center;
     background-size: cover;
@@ -110,7 +115,8 @@ nav ul li a:hover::after{
 }
 
 .about-col-2 p{
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 .tab-titles{
@@ -380,11 +386,28 @@ nav .fa-solid{
         cursor: pointer;
     }
 
+    #about{
+        padding: 10px;
+    }
+
+    .about-col-1{
+        flex-basis: 90%;
+    }
+    
+
     .about-col-2 h1{
         font-size: 35px;
     }
 
     .about-col-2 p{
         font-size: 10px;
+    }
+
+    #portfolio{
+        padding: 10px;
+    }
+
+    .contact-right{
+        flex-basis: 80%;
     }
 }
